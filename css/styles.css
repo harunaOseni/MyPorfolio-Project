@@ -1,0 +1,234 @@
+/* HTML css below */
+body {
+  background-color: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover i {
+  color: #f05454;
+}
+/* HTMl css above */
+
+/* Navigation section css below */
+.nav {
+  background-color: #f05454;
+  border-top: 2px solid #222831;
+  border-bottom: 2px solid #222831;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  padding: 3vh 4vw 3vh 4vw !important;
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+}
+
+.nav-link:hover {
+  background-color: #30475e;
+  color: white;
+}
+
+@media (max-width: 380px) {
+  .nav-link {
+    font-family: "Montserrat", sans-serif;
+    padding: 3vh 7vw 3vh 7vw !important;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    right: 10px;
+  }
+}
+/* Navigation section css above */
+
+/* welcome section CSS below */
+#welcome_section {
+  margin-top: 73px;
+  text-align: center;
+  background-image: linear-gradient(to top, #222831, #30475e);
+}
+.intro-text {
+  padding: 28vh 0 38vh 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.title {
+  font-weight: lighter !important;
+  font-size: 2em;
+  color: #f05454;
+}
+
+.name-text {
+  font-size: 4em;
+  font-weight: 800;
+}
+/* welcome section CSS above */
+
+/* project showcase section css below */
+#project-showcase-section {
+  background-color: #222831;
+}
+
+#intro-to-showcase-text {
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  font-weight: 800;
+  padding-top: 15vh;
+  padding-bottom: 10vh;
+  font-size: 2.3em;
+  color: #dddddd;
+  word-spacing: 0.17em;
+}
+
+hr.showcase-intro-hr {
+  border: 2px solid #dddddd;
+  width: 45vw;
+  margin: auto;
+  margin-top: 2vh;
+}
+
+@media (max-width: 770px) {
+  hr.showcase-intro-hr {
+    border: 2px solid #dddddd;
+    width: 90vw;
+    margin: auto;
+    margin-top: 2vh;
+  }
+}
+
+.card {
+  width: 24rem;
+  margin-bottom: 7vh !important;
+}
+
+.card-body {
+  background-color: #dddddd;
+}
+
+.card-text {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+#showcase-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.angular_bracket {
+  color: #f05454;
+  transition: 0.5s ease;
+  opacity: 0;
+}
+
+.card:hover .angular_bracket {
+  opacity: 1;
+}
+
+@media (max-width: 380px) {
+  .card {
+    width: 22rem;
+    margin-bottom: 2em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* default iPad screens */
+  .card {
+    width: 30rem;
+    margin-bottom: 2em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .card {
+    width: 25rem;
+    margin-bottom: 2em;
+  }
+}
+
+.showAllButton {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  background-color: #222831;
+  margin-bottom: 15vh;
+}
+/* project showcase section css above */
+
+/* contact section css below */
+#contact-section {
+  text-align: center;
+  background-image: linear-gradient(to bottom, #222831, #30475e);
+}
+
+h3 {
+  font-family: "poppins", sans-serif;
+  font-weight: 800;
+  font-size: 3.5em;
+  padding: 15vh 0 0 0;
+  color: #dddddd;
+}
+
+#coffee-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter !important;
+  font-size: 1.2em;
+  color: #dddddd;
+}
+
+#call-to-action {
+  padding-bottom: 10vh;
+}
+
+#contact-platform {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-bottom: 20vh;
+}
+
+.contact-icons {
+  font-size: 5vw;
+  color: #dddddd;
+}
+
+.contact-icon:hover {
+  color: #f05454;
+}
+
+@media (max-width: 380px) {
+  .contact-icons {
+    font-size: 18vw;
+    color: #dddddd;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+  .contact-icons {
+    font-size: 10vw;
+    color: #dddddd;
+  }
+}
+/* contact section css above */
+
+/* footer section css below */
+footer {
+  color: #dddddd;
+  text-align: center;
+  background-color:  #30475e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
+  border-top: 5px solid #f05454;
+  padding: 5vh 0 5vh 0;
+}
+/* footer section css above */

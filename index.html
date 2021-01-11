@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <!-- link for bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- link for custom css -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- link for monsterrat font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link for poppin font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Extra light poppin font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul class="nav justify-content-end nav-light fixed-top">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#welcome_section"
+            >About</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#project-showcase-section">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-section">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="welcome_section">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container intro-text">
+          <h1 class="display-4 name-text">Hey I am Oseni</h1>
+          <p class="lead title">
+            <i>a web developer</i>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="project-showcase-section">
+      <h2 id="intro-to-showcase-text">
+        These are some of my projects
+        <hr class="showcase-intro-hr" />
+      </h2>
+      <div id="showcase-grid">
+        <div class="card">
+          <a
+            href="https://oseniharuna.github.io/Dr-Norman-Borlaug-tribute-page/"
+            target="_blank"
+          >
+            <img
+              class="card-img-top"
+              src="/images/Dr. Norman Borlaug Tribute page - Google Chrome 1_7_2021 10_53_06 PM.png"
+              alt="Card image cap"
+              height="292vh"
+            />
+          </a>
+          <div class="card-body">
+            <p class="card-text">
+              <span class="angular_bracket"><</span> Tribute page
+              <span class="angular_bracket">/></span>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <a
+            href="https://oseniharuna.github.io/trombone-landing-page/"
+            target="_blank"
+          >
+            <img
+              class="card-img-top"
+              src="/images/Original Trombones - Google Chrome 1_8_2021 2_34_52 PM.png"
+              alt="Card image cap"
+              height="292vh"
+            />
+          </a>
+          <div class="card-body">
+            <p class="card-text">
+              <span class="angular_bracket"><</span> Product landing page
+              <span class="angular_bracket">/></span>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <a
+            href="https://oseniharuna.github.io/Mutant-Underground-Survey-Form/"
+            target="_blank"
+          >
+            <img
+              class="card-img-top"
+              src="/images/mutant-undergrounf-survey-form.png"
+              alt="Card image cap"
+              height="292vh"
+            />
+          </a>
+          <div class="card-body">
+            <p class="card-text">
+              <span class="angular_bracket"><</span> Mutant survey form
+              <span class="angular_bracket">/></span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a href="https://github.com/oseniharuna" target="_blank">
+          <button type="button" class="btn btn-secondary btn-lg showAllButton">
+            Show all <i class="fas fa-greater-than"></i>
+          </button>
+        </a>
+      </div>
+    </section>
+    <section id="contact-section">
+      <div id="call-to-action">
+        <h3>Let's work together...</h3>
+        <p id="coffee-text"><i>How do you take your coffee?</i></p>
+      </div>
+      <div id="contact-platform">
+        <div class="contact-icons">
+          <a href="https://github.com/oseniharuna">
+            <i class="fab fa-github contanctMe"></i>
+          </a>
+        </div>
+        <div class="contact-icons">
+          <a href="mailto:harunaoseni23@gmail.com">
+            <i class="fas fa-at contactMe"></i>
+          </a>
+        </div>
+        <div class="contact-icons">
+          <a href="tel:+1-832-757-8493">
+            <i class="fas fa-mobile-alt contactMe"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer>&copy; Portfolio project created by Haruna Oseni</footer>
+  </body>
+</html>
