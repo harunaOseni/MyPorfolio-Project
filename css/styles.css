@@ -52,10 +52,19 @@ a:hover i {
   text-align: center;
   background-image: linear-gradient(to top, #222831, #30475e);
 }
+
 .intro-text {
   padding: 28vh 0 38vh 0;
   font-family: "Poppins", sans-serif;
   color: white;
+}
+
+@media (max-width: 380px) {
+  .intro-text {
+    padding: 22vh 0 38vh 0;
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
 }
 
 .title {
